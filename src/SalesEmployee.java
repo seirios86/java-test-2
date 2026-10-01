@@ -1,7 +1,7 @@
 public class SalesEmployee extends Employee {
 
-    private long baseSalary;
-    private long monthlySales;
+    private final long baseSalary;
+    private final long monthlySales;
 
     public SalesEmployee(String name, long baseSalary, long monthlySales) {
         super(name);

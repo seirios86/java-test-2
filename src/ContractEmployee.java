@@ -1,7 +1,7 @@
 public class ContractEmployee extends Employee {
 
-    private long hourWage;
-    private int workingHours;
+    private final long hourWage;
+    private final int workingHours;
 
     public ContractEmployee(String name, long hourWage, int workingHours) {
         super(name);

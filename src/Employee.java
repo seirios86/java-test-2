@@ -1,14 +1,10 @@
 public abstract class Employee {
 
-    private String name;
+    private final String name;
     private static int count;
 
-    public Employee() {
+    protected Employee(String name) {
         count++;
-    }
-
-    public Employee(String name) {
-        this();
         this.name = name;
     }
 

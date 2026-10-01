@@ -1,7 +1,7 @@
 public class Developer extends Employee {
 
-    private long baseSalary;
-    private long allowance;
+    private final long baseSalary;
+    private final long allowance;
 
     public Developer(String name, long baseSalary, long allowance) {
         super(name);
